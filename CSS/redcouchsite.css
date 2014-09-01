@@ -1,67 +1,96 @@
-html, body {
-  margin: 0;
-    padding: 0;
-}
+@import url(http://fonts.googleapis.com/css?family=Cutive+Mono|Gloria+Hallelujah);
+
+
+/*	RESET
+------------------------------------------------*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td
+						{ margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent; }
+
+html { -webkit-text-size-adjust: none; }
+body { font-family: arial, helvativa, sans-serif; font-size: 18px; }
+header, footer, article, aside, section, nav { display: block; }
+ul { list-style: none; }
+a { text-decoration: none; color: #09f; }
+
+
+
+
+
+
 
 #content {
-  text-align: center;
+	text-align: center;
 }
 
 footer {
-  margin-top: 100px;
-  color: #999;
+	margin-top: 100px;
+	color: #999;
 }
 
 #hero {
-  max-width: 612px;
-  margin: 0 auto;
+	max-width: 612px;
+	margin: 0 auto;
 }
 
-#hero div.img
- {
-  background: url(../images/siteimages/hero.jpg) no-repeat 50% 50%;
-  background-size: contain;
-  height: 0px;
-  padding-top: 77.54098%;
-  text-indent: -9999px;
+#hero div.img {
+	background: url(../images/siteimages/hero.jpg) no-repeat 50% 50%;
+	background-size: contain;
+	height: 0px;
+	padding-top: 77.54098%;
+	text-indent: -9999px;
 }
 
 #contact {
-  padding: 20px;
+	padding: 20px;
+}
+
+
+div.name {
+	font-size: 48px;
+	margin: 0 0 10px;
+	font-family: 'Gloria Hallelujah', arial, helvativa, sans-serif;
+}
+
+div.phone {
+	letter-spacing: 2px;
+	font-family: 'Cutive Mono';
 }
 
 
 
 #social {
-  padding: 20px;
+	padding: 20px;
 }
 
 
 a.social-icon {
-  display: inline-block;
-  width: 64px;
-  height: 64px;
-  margin: 10px;
-  text-indent: -9999px;
-  -webkit-transform: scale(0.8);
-  -webkit-transition: all 100ms ease-in-out;
-  -webkit-transition-property: -webkit-transform, opacity;
-  opacity: 0.5;
+	display: inline-block;
+	width: 64px;
+	height: 64px;
+	margin: 10px;
+	text-indent: -9999px;
+	-webkit-transform: scale(0.8);
+	-webkit-transition: all 100ms ease-in-out;
+	-webkit-transition-property: -webkit-transform, opacity;
+	opacity: 0.5;
 }
 
 
 a.social-icon:hover,
 a.social-icon:focus {
-  -webkit-transform: scale(1);
-  outline: none;
-  opacity: 1;
+	-webkit-transform: scale(1);
+	outline: none;
+	opacity: 1;
 }
 
 
 a.facebook {
-  background: url(../images/siteimages/icons/facebook.png) no-repeat 50% 50%;
+	background: url(../images/siteimages/icons/facebook.png) no-repeat 50% 50%;
 }
 
 a.instagram {
-  background: url(../images/siteimages/icons/instagram.png) no-repeat 50% 50%;
+	background: url(../images/siteimages/icons/instagram.png) no-repeat 50% 50%;
 }
