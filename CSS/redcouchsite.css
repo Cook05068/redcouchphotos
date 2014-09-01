@@ -1,10 +1,67 @@
-html,body {
-margin: 0; 
+html, body {
+	margin: 0; 
     padding: 0;
 }
-#contact {
-background: #078;
-}
+
 #content {
- text-align: center;   
+	text-align: center;   
+}
+
+footer {
+	margin-top: 100px;
+	color: #999;
+}
+
+#hero {
+	max-width: 612px;
+	margin: 0 auto;
+}
+
+#hero div.img
+ {
+	background: url(../images/SiteImages/hero.jpg) no-repeat 50% 50%;
+	background-size: contain;
+	height: 0px;
+	padding-top: 77.54098%;
+	text-indent: -9999px;
+}
+
+#contact {
+	padding: 20px;
+}
+
+
+
+#social {
+	padding: 20px;
+}
+
+
+a.social-icon {
+	display: inline-block;
+	width: 64px;
+	height: 64px;
+	margin: 10px;
+	text-indent: -9999px;
+	-webkit-transform: scale(0.8);
+	-webkit-transition: all 100ms ease-in-out;
+	-webkit-transition-property: -webkit-transform, opacity;
+	opacity: 0.5;
+}
+
+
+a.social-icon:hover,
+a.social-icon:focus {
+	-webkit-transform: scale(1);
+	outline: none;
+	opacity: 1;
+}
+
+
+a.facebook {
+	background: url(../images/SiteImages/icons/facebook.png) no-repeat 50% 50%;
+}
+
+a.instagram {
+	background: url(../images/SiteImages/icons/instagram.png) no-repeat 50% 50%;
 }
