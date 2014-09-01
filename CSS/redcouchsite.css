@@ -19,7 +19,7 @@ footer {
 
 #hero div.img
  {
-  background: url(../images/SiteImages/hero.jpg) no-repeat 50% 50%;
+  background: url(../images/siteimages/hero.jpg) no-repeat 50% 50%;
   background-size: contain;
   height: 0px;
   padding-top: 77.54098%;
@@ -59,9 +59,9 @@ a.social-icon:focus {
 
 
 a.facebook {
-  background: url(../images/SiteImages/icons/facebook.png) no-repeat 50% 50%;
+  background: url(../images/siteimages/icons/facebook.png) no-repeat 50% 50%;
 }
 
 a.instagram {
-  background: url(../images/SiteImages/icons/instagram.png) no-repeat 50% 50%;
+  background: url(../images/siteimages/icons/instagram.png) no-repeat 50% 50%;
 }
