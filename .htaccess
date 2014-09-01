@@ -1,0 +1,5 @@
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^redcouchphotos\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.redcouchphotos\.com$
