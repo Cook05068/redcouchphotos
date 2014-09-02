@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Cutive+Mono|Gloria+Hallelujah);
+@import url (http://fonts.googleapis.com/css?family=Open Sans);
 
 
 /*	RESET
@@ -51,7 +51,7 @@ footer {
 div.name {
 	font-size: 48px;
 	margin: 0 0 10px;
-	font-family: 'Gloria Hallelujah', arial, helvativa, sans-serif;
+font-family: 'Open Sans', sans-serif;
 }
 
 div.phone {
